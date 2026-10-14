@@ -111,8 +111,6 @@ def reset():
 st.title("🛡️ ميثاق | MITHAQ" if AR else "🛡️ MITHAQ")
 st.markdown(f"**{t['subtitle']}**")
 st.caption(t["features"])
-st.info(t["explain"])
-st.warning(t["disclaimer"], icon="⚠️")
 
 with st.sidebar:
     st.header(t["controls"])
